@@ -22,4 +22,4 @@ Then your JS files loaded on line 3 will not have access to `JST` until the docu
 
 ## _handlebars_ or _handlebars.vm_
 
-If you are compiling are your **handlebars.js** templates in the asset pipeline, require `handlebars.vm`. If you must compile your **handlebars.js** in the browser, require the larger `handlebars`.
+If you are compiling all your **handlebars.js** templates in the asset pipeline, require `handlebars.vm`. If you must compile your **handlebars.js** in the browser, require the larger `handlebars`.
