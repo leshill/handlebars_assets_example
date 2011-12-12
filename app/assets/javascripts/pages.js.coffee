@@ -4,4 +4,5 @@
 $(->
   alert(JST['pages/one']())
   $('p').after(JST['pages/two'](class: 'two'))
+  $('p').after(HandlebarsTemplates['pages/three'](class: 'three'))
 )
