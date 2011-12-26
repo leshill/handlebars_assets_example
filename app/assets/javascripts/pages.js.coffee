@@ -5,4 +5,5 @@ $(->
   alert(JST['pages/one']())
   $('p').after(JST['pages/two'](class: 'two'))
   $('p').after(HandlebarsTemplates['pages/three'](class: 'three'))
+  $('p').after(HoganTemplates['pages/four'].render(class: 'four', title: 'Four!'))
 )
