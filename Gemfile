@@ -8,6 +8,7 @@ gem 'pg'
 
 group :assets do
   gem 'handlebars_assets'
+  gem 'hogan_assets'
   gem 'sass-rails',   '~> 3.1.4'
   gem 'coffee-rails', '~> 3.1.1'
   gem 'uglifier', '>= 1.0.3'
