@@ -8,7 +8,7 @@
 //
 // Change this to just `handlebars` if you need to compile other templates in the browser
 // Note that it is significantly larger
-//= require handlebars.vm
+//= require handlebars.runtime
 //= require hogan
 //
 //= require_tree .
